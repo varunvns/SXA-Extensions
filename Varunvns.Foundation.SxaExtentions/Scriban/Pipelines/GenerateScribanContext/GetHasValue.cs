@@ -24,20 +24,14 @@ namespace Varunvns.Foundation.SxaExtentions.Scriban.Pipelines.GenerateScribanCon
 
         public Boolean GetHasValueImpl(Item item, string fieldName)
         {
-
             if (item != null && fieldName != null)
             {
-               if(item.Fields[fieldName].Value != string.Empty && item.Fields[fieldName].Value != null && item.Fields[fieldName].HasValue == true)
+                //Change for fixing the case where value comes from Standard values https://stackoverflow.com/questions/35647588/sitecores-field-hasvalue-returning-false-even-when-there-is-a-value
+                if (item.Fields[fieldName].Value != string.Empty && item.Fields[fieldName].Value != null && (item.Fields[fieldName].HasValue == true || item.Fields[fieldName].ContainsStandardValue == true))
                 {
-
-
                     return true;
-
                 }
                 return false;
-
-                
-
             }
             return false;
         }
