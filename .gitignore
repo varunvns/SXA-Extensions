@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/Varunvns.Foundation.SxaExtentions/bin
+/Varunvns.Foundation.SxaExtentions/obj/Debug
+/Varunvns.Foundation.SxaExtentions/Varunvns.Foundation.SxaExtentions.csproj.user
+/Varunvns.Foundation.SxaExtentions/Web.config
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.vs/SxaExtentions/v16/.suo
+/.vs/SxaExtentions/config/applicationhost.config
+/.vs/SXA-Extensions/v16/.suo
