@@ -284,6 +284,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Scriban\Model\LinkInfo.cs" />
     <Compile Include="Scriban\Model\SiteInfoModel.cs" />
+    <Compile Include="Scriban\Pipelines\GenerateScribanContext\CustomIconClass.cs" />
+    <Compile Include="Scriban\Pipelines\GenerateScribanContext\GetDateCompare.cs" />
+    <Compile Include="Scriban\Pipelines\GenerateScribanContext\GetDateFieldShortDate.cs" />
+    <Compile Include="Scriban\Pipelines\GenerateScribanContext\GetHasValue.cs" />
     <Compile Include="Scriban\Pipelines\GenerateScribanContext\GetLinkInfo.cs" />
     <Compile Include="Scriban\Pipelines\GenerateScribanContext\GetSiteInfo.cs" />
     <Compile Include="Scriban\Pipelines\GenerateScribanContext\GetSiteURL.cs" />
